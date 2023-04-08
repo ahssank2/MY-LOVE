@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="windth=device-width, initial-scale=1.0">
+    <title>Ahsan Tariq Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio>
+        <source src="D:\c++ coding\ahsan website\imegs\ff.mp3" type="ff.mp3">
+    </audio>
+<div class="hero">
+    <nav>
+        <img src="imegs/menu.png" class="menu-img">
+        <img src="imegs/logo.png" class="logo">
+        <ul>
+            <li><a href=""></a>Ahsan</li>
+            <li><a href=""></a>Love</li>
+            <li><a href=""></a>Haniya</li>
+            <li><a href=""></a></li>
+        </ul>
+        <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+    </nav>
+
+<div class="lamp-container">
+    <img src="imegs/lamp.png" class="lamp">
+    <img src="imegs/light.png" class="light" id="light">
+    <img src="imegs/happy.png" class="happy" id="happy">
+</div>
+
+<div class="text-container">
+    <h1>Ahsan<br>Love Haniya</h1>
+    <p>I Love You : My Love : Life Line : Haniya </p>
+    <a href="">I Love You</a>
+    <div class="control">
+        <p>04</p>
+        <div class="line"><span></span></div>
+        <p>05</p>
+    </div>
+
+</div>
+
+</div>
+
+
+<script>
+    var btn = document.getElementById("btn");
+    var light = document.getElementById("light");
+    var happy = document.getElementById("happy");
+
+    function toggleBtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+        happy.classList.toggle("on");
+    }
+</script>
+</body>
+</html>
